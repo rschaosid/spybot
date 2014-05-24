@@ -1,0 +1,28 @@
+.spybot-databattle-backdrop {
+  position: absolute;
+  width: 650;
+  height: 420;
+}
+
+.spybot-databattle-backdrop-3 {
+  background: url('/assets/databattle/company_bkg_3.jpeg');
+}
+
+table.spybot-databattle-board {
+  position: absolute;
+  left: 138px;
+  top: 4px;
+  border-spacing: 4px;
+}
+
+table.spybot-databattle-board>tr>td {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+td.spybot-databattle-board-square-passable {
+  background-color: #FFFFFF;
+}
