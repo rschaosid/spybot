@@ -23,6 +23,42 @@ table.spybot-databattle-board>tr>td {
   margin-bottom: 4px;
 }
 
-td.spybot-databattle-board-square-passable {
+td.spybot-databattle-board-cell-passable {
   background-color: #FFFFFF;
+}
+
+td.spybot-databattle-board-cell-type-1 {
+  background: url('/assets/databattle/cell_1.bmp');
+}
+
+td.spybot-databattle-board-cell-type-2 {
+  background: url('/assets/databattle/cell_2.bmp');
+}
+
+td.spybot-databattle-board-cell-type-3 {
+  background: url('/assets/databattle/cell_3.bmp');
+}
+
+td.spybot-databattle-board-cell-type-4 {
+  background: url('/assets/databattle/cell_4.bmp');
+}
+
+td.spybot-databattle-board-cell-type-5 {
+  background: url('/assets/databattle/cell_5.bmp');
+}
+
+td.spybot-databattle-board-cell-type-6 {
+  background: url('/assets/databattle/cell_6.bmp');
+}
+
+td.spybot-databattle-board-cell-type-7 {
+  background: url('/assets/databattle/cell_7.bmp');
+}
+
+td.spybot-databattle-board-cell-type-8 {
+  background: url('/assets/databattle/cell_8.bmp');
+}
+
+td.spybot-databattle-board-cell-type-9 {
+  background: url('/assets/databattle/cell_9.bmp');
 }
