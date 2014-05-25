@@ -83,3 +83,23 @@ spybot-databattle-board-cell-datacard {
 spybot-databattle-board-cell-sector {
   background: url('/assets/databattle/sector.png');
 }
+
+spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='move-extents'] {
+  background: url('/assets/databattle/move-extents.png');
+}
+
+spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-pointer'] {
+  background: url('/assets/databattle/step-pointers.png');
+}
+spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-pointer'][spybot-databattle-board-cell-overlay-step-pointer-direction='left'] {
+  background-position: 0 0;
+}
+spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-pointer'][spybot-databattle-board-cell-overlay-step-pointer-direction='up'] {
+  background-position: -32px 0;
+}
+spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-pointer'][spybot-databattle-board-cell-overlay-step-pointer-direction='right'] {
+  background-position: -64px 0;
+}
+spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-pointer'][spybot-databattle-board-cell-overlay-step-pointer-direction='down'] {
+  background-position: -96px 0;
+}
