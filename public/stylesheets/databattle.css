@@ -90,6 +90,46 @@ spybot-databattle-board-cell-sector {
   background: url('/assets/databattle/sector.png');
 }
 
+spybot-databattle-board-cell-sector[spybot-databattle-unit-class='Hack 3.0'] {
+  background: url('/assets/databattle/sector-0.png');
+}
+
+spybot-databattle-board-cell-sector[spybot-databattle-unit-class='Radar'] {
+  background: url('/assets/databattle/sector-1.png');
+}
+
+spybot-databattle-board-cell-sector[spybot-databattle-unit-class='Guard Dog'] {
+  background: url('/assets/databattle/sector-2.png');
+}
+
+spybot-databattle-board-cell-sector[spybot-databattle-unit-class='Fire Wall'] {
+  background: url('/assets/databattle/sector-3.png');
+}
+
+spybot-databattle-board-cell-sector[spybot-databattle-unit-class='Sumo'] {
+  background: url('/assets/databattle/sector-4.png');
+}
+
+spybot-databattle-board-cell-sector.spybot-databattle-board-cell-sector-unit-head[spybot-databattle-unit-class='Hack 3.0'] {
+  background: url('/assets/databattle/head-0.png');
+}
+
+spybot-databattle-board-cell-sector.spybot-databattle-board-cell-sector-unit-head[spybot-databattle-unit-class='Radar'] {
+  background: url('/assets/databattle/head-4.png');
+}
+
+spybot-databattle-board-cell-sector.spybot-databattle-board-cell-sector-unit-head[spybot-databattle-unit-class='Guard Dog'] {
+  background: url('/assets/databattle/head-3.png');
+}
+
+spybot-databattle-board-cell-sector.spybot-databattle-board-cell-sector-unit-head[spybot-databattle-unit-class='Fire Wall'] {
+  background: url('/assets/databattle/head-1.png');
+}
+
+spybot-databattle-board-cell-sector.spybot-databattle-board-cell-sector-unit-head[spybot-databattle-unit-class='Sumo'] {
+  background: url('/assets/databattle/head-2.png');
+}
+
 spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-extents'] {
   position: absolute;
   width: 32px;
