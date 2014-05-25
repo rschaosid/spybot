@@ -1,0 +1,513 @@
+{
+  "cells": [
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true, "occupier": 1, "hasUnitHead": true},
+      {"tileType": 1, "passable": true, "occupier": 2, "hasUnitHead": true},
+      {"tileType": 1, "passable": true, "occupier": 3, "hasUnitHead": true},
+      {"tileType": 1, "passable": true, "occupier": 4, "hasUnitHead": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},{}],
+    [{}, {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},{}],
+    [{}, {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},{}],
+    [{}, {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},{}],
+    [{}, {},
+      {"tileType": 1, "passable": true},
+      {},
+      {"tileType": 1, "passable": true},
+      {},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {},
+      {"tileType": 1, "passable": true},
+      {},
+      {"tileType": 1, "passable": true},
+      {},{}],
+    [{}, {},
+      {"tileType": 1, "passable": true},
+      {},
+      {"tileType": 1, "passable": true, "occupier": 5, "hasUnitHead": true},
+      {},
+      {"tileType": 1, "passable": true, "occupier": 6, "hasUnitHead": true},
+      {},
+      {},
+      {"tileType": 1, "passable": true, "occupier": 7, "hasUnitHead": true},
+      {},
+      {"tileType": 1, "passable": true, "occupier": 8, "hasUnitHead": true},
+      {},
+      {"tileType": 1, "passable": true},
+      {},{}],
+    [{}, {},
+      {"tileType": 1, "passable": true},
+      {},
+      {"tileType": 1, "passable": true, "occupier": 9, "hasUnitHead": true},
+      {},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {},
+      {"tileType": 1, "passable": true, "occupier": 10, "hasUnitHead": true},
+      {},
+      {"tileType": 1, "passable": true},
+      {},{}],
+    [{}, {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true, "occupier": 10},
+      {"tileType": 1, "passable": true, "occupier": 10},
+      {"tileType": 1, "passable": true, "occupier": 10},
+      {"tileType": 1, "passable": true, "occupier": 10},
+      {"tileType": 1, "passable": true, "occupier": 10},{}],
+    [{}, {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true, "occupier": 9},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true, "credit": 720},
+      {"tileType": 1, "passable": true, "credit": 780},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true, "occupier": 10},
+      {"tileType": 1, "passable": true, "occupier": 10},
+      {"tileType": 1, "passable": true, "occupier": 10},
+      {"tileType": 1, "passable": true, "occupier": 10},
+      {"tileType": 1, "passable": true, "occupier": 10},{}],
+    [{}, {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true, "occupier": 11, "hasUnitHead": true},
+      {"tileType": 1, "passable": true, "occupier": 12, "hasUnitHead": true},
+      {"tileType": 1, "passable": true, "occupier": 13, "hasUnitHead": true},
+      {"tileType": 1, "passable": true, "occupier": 14, "hasUnitHead": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},
+      {"tileType": 1, "passable": true},{}],
+    [{}, {"tileType": 1, "passable": true, "occupier": 11},
+      {"tileType": 1, "passable": true, "occupier": 11},
+      {"tileType": 1, "passable": true, "occupier": 11},
+      {"tileType": 1, "passable": true, "occupier": 11},
+      {"tileType": 1, "passable": true, "occupier": 11},
+      {"tileType": 1, "passable": true, "occupier": 11},
+      {"tileType": 1, "passable": true, "credit": 760},
+      {"tileType": 1, "passable": true, "credit": 860},
+      {"tileType": 1, "passable": true, "occupier": 14},
+      {"tileType": 1, "passable": true, "occupier": 14},
+      {"tileType": 1, "passable": true, "occupier": 14},
+      {"tileType": 1, "passable": true, "occupier": 14},
+      {"tileType": 1, "passable": true, "occupier": 14},
+      {"tileType": 1, "passable": true, "occupier": 14},{}],
+  ],
+  "units": [
+    {
+      "uid": 1,
+      "name": "Hack 3.0",
+      "description": "THE TOP OF THE HACK SERIES",
+      "moveRate": 4,
+      "maxSize": 4,
+      "pos": {"x": 6, "y": 1},
+      "trail": [{"x": 6, "y": 1}],
+      "alignment": 0,
+      "attacks": [
+        {
+          "name": "SLICE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 2,
+          "sizeRequired": 0
+        },
+        {
+          "name": "MUTILATE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 4,
+          "sizeRequired": 4
+        }
+      ]
+    },
+    {
+      "uid": 2,
+      "name": "Hack 3.0",
+      "description": "THE TOP OF THE HACK SERIES",
+      "moveRate": 4,
+      "maxSize": 4,
+      "pos": {"x": 7, "y": 1},
+      "trail": [{"x": 7, "y": 1}],
+      "alignment": 0,
+      "attacks": [
+        {
+          "name": "SLICE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 2,
+          "sizeRequired": 0
+        },
+        {
+          "name": "MUTILATE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 4,
+          "sizeRequired": 4
+        }
+      ]
+    },
+    {
+      "uid": 3,
+      "name": "Hack 3.0",
+      "description": "THE TOP OF THE HACK SERIES",
+      "moveRate": 4,
+      "maxSize": 4,
+      "pos": {"x": 8, "y": 1},
+      "trail": [{"x": 8, "y": 1}],
+      "alignment": 0,
+      "attacks": [
+        {
+          "name": "SLICE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 2,
+          "sizeRequired": 0
+        },
+        {
+          "name": "MUTILATE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 4,
+          "sizeRequired": 4
+        }
+      ]
+    },
+    {
+      "uid": 4,
+      "name": "Hack 3.0",
+      "description": "THE TOP OF THE HACK SERIES",
+      "moveRate": 4,
+      "maxSize": 4,
+      "pos": {"x": 9, "y": 1},
+      "trail": [{"x": 9, "y": 1}],
+      "alignment": 0,
+      "attacks": [
+        {
+          "name": "SLICE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 2,
+          "sizeRequired": 0
+        },
+        {
+          "name": "MUTILATE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 4,
+          "sizeRequired": 4
+        }
+      ]
+    },
+    {
+      "uid": 5,
+      "name": "Guard Dog",
+      "description": "WHO LET THE DOGS OUT?",
+      "moveRate": 3,
+      "maxSize": 3,
+      "pos": {"x": 2, "y": 6},
+      "trail": [{"x": 2, "y": 6}],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "BYTE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 2,
+          "sizeRequired": 0
+        }
+      ]
+    },
+    {
+      "uid": 6,
+      "name": "Guard Dog",
+      "description": "WHO LET THE DOGS OUT?",
+      "moveRate": 3,
+      "maxSize": 3,
+      "pos": {"x": 6, "y": 6},
+      "trail": [{"x": 6, "y": 6}],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "BYTE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 2,
+          "sizeRequired": 0
+        }
+      ]
+    },
+    {
+      "uid": 7,
+      "name": "Guard Dog",
+      "description": "WHO LET THE DOGS OUT?",
+      "moveRate": 3,
+      "maxSize": 3,
+      "pos": {"x": 9, "y": 6},
+      "trail": [{"x": 9, "y": 6}],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "BYTE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 2,
+          "sizeRequired": 0
+        }
+      ]
+    },
+    {
+      "uid": 8,
+      "name": "Guard Dog",
+      "description": "WHO LET THE DOGS OUT?",
+      "moveRate": 3,
+      "maxSize": 3,
+      "pos": {"x": 13, "y": 6},
+      "trail": [{"x": 13, "y": 6}],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "BYTE",
+          "description": "DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 2,
+          "sizeRequired": 0
+        }
+      ]
+    },
+    {
+      "uid": 9,
+      "name": "Fire Wall",
+      "description": "KEEPS UNWANTED PROGRAMS OUT OF CORPORATE SECTORS",
+      "moveRate": 2,
+      "maxSize": 20,
+      "pos": {"x": 4, "y": 7},
+      "trail": [
+        {"x": 4, "y": 7},
+        {"x": 4, "y": 8},
+        {"x": 3, "y": 8},
+        {"x": 2, "y": 8},
+        {"x": 1, "y": 8},
+        {"x": 1, "y": 9},
+        {"x": 2, "y": 9},
+        {"x": 3, "y": 9},
+        {"x": 4, "y": 9},
+        {"x": 5, "y": 9},
+        {"x": 5, "y": 8},
+      ],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "BURN",
+          "description": "DELETES 1 SECTOR FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 1,
+          "sizeRequired": 0
+        }
+      ]
+    },
+    {
+      "uid": 10,
+      "name": "Fire Wall",
+      "description": "KEEPS UNWANTED PROGRAMS OUT OF CORPORATE SECTORS",
+      "moveRate": 2,
+      "maxSize": 20,
+      "pos": {"x": 11, "y": 7},
+      "trail": [
+        {"x": 11, "y": 7},
+        {"x": 11, "y": 8},
+        {"x": 12, "y": 8},
+        {"x": 13, "y": 8},
+        {"x": 14, "y": 8},
+        {"x": 14, "y": 9},
+        {"x": 13, "y": 9},
+        {"x": 12, "y": 9},
+        {"x": 11, "y": 9},
+        {"x": 10, "y": 9},
+        {"x": 10, "y": 8},
+      ],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "BURN",
+          "description": "DELETES 1 SECTOR FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 1,
+          "sizeRequired": 0
+        }
+      ]
+    },
+    {
+      "uid": 11,
+      "name": "Sumo",
+      "description": "A MASSIVE AND SLOW-MOVING POWERHOUSE",
+      "moveRate": 2,
+      "maxSize": 12,
+      "pos": {"x": 6, "y": 10},
+      "trail": [
+        {"x": 6, "y": 10},
+        {"x": 6, "y": 11},
+        {"x": 5, "y": 11},
+        {"x": 4, "y": 11},
+        {"x": 3, "y": 11},
+        {"x": 2, "y": 11},
+        {"x": 1, "y": 11}
+      ],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "DATASLAM",
+          "description": "SIZE REQ:6, DELETES 8 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 8,
+          "sizeRequired": 6
+        }
+      ]
+    },
+    {
+      "uid": 12,
+      "name": "Radar",
+      "description": "DEADLY PROGRAM ERADICATOR",
+      "moveRate": 0,
+      "maxSize": 1,
+      "pos": {"x": 7, "y": 10},
+      "trail": [{"x": 7, "y": 10}],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "PONG",
+          "description": "RANGE:5, DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 5,
+          "magnitude": 2,
+          "sizeRequired": 0
+        }
+      ]
+    },
+    {
+      "uid": 13,
+      "name": "Radar",
+      "description": "DEADLY PROGRAM ERADICATOR",
+      "moveRate": 0,
+      "maxSize": 1,
+      "pos": {"x": 8, "y": 10},
+      "trail": [{"x": 8, "y": 10}],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "PONG",
+          "description": "RANGE:5, DELETES 2 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 5,
+          "magnitude": 2,
+          "sizeRequired": 0
+        }
+      ]
+    },
+    {
+      "uid": 14,
+      "name": "Sumo",
+      "description": "A MASSIVE AND SLOW-MOVING POWERHOUSE",
+      "moveRate": 2,
+      "maxSize": 12,
+      "pos": {"x": 9, "y": 10},
+      "trail": [
+        {"x": 9, "y": 10},
+        {"x": 9, "y": 11},
+        {"x": 10, "y": 11},
+        {"x": 11, "y": 11},
+        {"x": 12, "y": 11},
+        {"x": 13, "y": 11},
+        {"x": 14, "y": 11}
+      ],
+      "alignment": 1,
+      "attacks": [
+        {
+          "name": "DATASLAM",
+          "description": "SIZE REQ:6, DELETES 8 SECTORS FROM TARGET",
+          "type": "damage",
+          "range": 1,
+          "magnitude": 8,
+          "sizeRequired": 6
+        }
+      ]
+    },
+  ]
+}

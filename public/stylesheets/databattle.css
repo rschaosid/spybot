@@ -5,7 +5,7 @@ spybot-databattle-backdrop {
 }
 
 spybot-databattle-backdrop[spybot-databattle-backdrop-kind='3'] {
-  background: url('/assets/databattle/company_bkg_5.jpeg');
+  background: url('/assets/databattle/company-backdrop-5.jpeg');
 }
 
 spybot-databattle-board {
@@ -78,4 +78,8 @@ spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='
 
 spybot-databattle-board-cell-datacard {
   background: url('/assets/databattle/datacard.png');
+}
+
+spybot-databattle-board-cell-sector {
+  background: url('/assets/databattle/sector.png');
 }

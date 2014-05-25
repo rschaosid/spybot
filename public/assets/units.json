@@ -6,6 +6,7 @@
         "name": "Slice",
         "description": "DELETES 2 SECTORS FROM TARGET",
         "type": "damage",
+        "range": 1,
         "magnitude": 2,
         "sizeRequired": 0
       }
