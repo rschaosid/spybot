@@ -90,13 +90,13 @@ spybot-databattle-board-cell-sector {
   background: url('/assets/databattle/sector.png');
 }
 
-spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='move-extents'] {
+spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-extents'] {
   position: absolute;
   width: 32px;
   height: 32px;
   top: 0;
   left: 0;
-  background: url('/assets/databattle/move-extents.png');
+  background: url('/assets/databattle/step-extents.png');
 }
 
 spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-pointer'] {
