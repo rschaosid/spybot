@@ -3,7 +3,7 @@ var browserify = require('gulp-browserify');
 var jshint = require('gulp-jshint');
 var jshint_stylish = require('jshint-stylish');
 
-var scripts = ['./lib/**/*.js', './test/**/*.js']
+var scripts = ['./lib/**/*.js'] //, './test/**/*.js']
 
 gulp.task('watch', function() {
   gulp.watch(scripts, ['lint', 'build']);
