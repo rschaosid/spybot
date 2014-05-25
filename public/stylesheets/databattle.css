@@ -77,18 +77,34 @@ spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='
 }
 
 spybot-databattle-board-cell-datacard {
+  /* TODO fix positioning */
   background: url('/assets/databattle/datacard.png');
 }
 
 spybot-databattle-board-cell-sector {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 1px;
+  left: 1px;
   background: url('/assets/databattle/sector.png');
 }
 
 spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='move-extents'] {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
   background: url('/assets/databattle/move-extents.png');
 }
 
 spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-pointer'] {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
   background: url('/assets/databattle/step-pointers.png');
 }
 spybot-databattle-board-cell-overlay[spybot-databattle-board-cell-overlay-function='step-pointer'][spybot-databattle-board-cell-overlay-step-pointer-direction='left'] {
