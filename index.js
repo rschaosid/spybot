@@ -15,7 +15,8 @@ app.use(express.methodOverride());
 app.use(express.cookieParser(app.get('cookie secret')));
 app.use(express.session());
 app.use('/api', app.router);
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'public')))
 
 // development only
 if ('development' == app.get('env')) {

@@ -1,64 +1,81 @@
-.spybot-databattle-backdrop {
+spybot-databattle-backdrop {
   position: absolute;
   width: 650;
   height: 420;
 }
 
-.spybot-databattle-backdrop-3 {
-  background: url('/assets/databattle/company_bkg_3.jpeg');
+spybot-databattle-backdrop[spybot-databattle-backdrop-kind='3'] {
+  background: url('/assets/databattle/company_bkg_5.jpeg');
 }
 
-table.spybot-databattle-board {
+spybot-databattle-board {
+  display: table;
   position: absolute;
-  left: 138px;
-  top: 4px;
-  border-spacing: 4px;
+  left: 136px;
+  top: 2px;
+  border-spacing: 0px;
 }
 
-table.spybot-databattle-board>tr>td {
+spybot-databattle-board-cell {
+  display: table-cell;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  position: relative;
+}
+
+spybot-databattle-board-cell-floor {
+  position: absolute;
   width: 28px;
   height: 28px;
-  padding: 0;
-  margin-right: 4px;
-  margin-bottom: 4px;
+  left: 2px;
+  top: 2px;
 }
 
-td.spybot-databattle-board-cell-passable {
-  background-color: #FFFFFF;
+spybot-databattle-board-cell[spybot-databattle-board-cell-occupied]>spybot-databattle-board-cell-floor {
+  visibility: hidden;
 }
 
-td.spybot-databattle-board-cell-type-1 {
-  background: url('/assets/databattle/cell_1.bmp');
+spybot-databattle-board-cell-floor {
+  opacity: .75;
 }
 
-td.spybot-databattle-board-cell-type-2 {
-  background: url('/assets/databattle/cell_2.bmp');
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='1'] {
+  background: url('/assets/databattle/cell_1.png');
 }
 
-td.spybot-databattle-board-cell-type-3 {
-  background: url('/assets/databattle/cell_3.bmp');
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='2'] {
+  background: url('/assets/databattle/cell_2.png');
 }
 
-td.spybot-databattle-board-cell-type-4 {
-  background: url('/assets/databattle/cell_4.bmp');
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='3'] {
+  background: url('/assets/databattle/cell_3.png');
 }
 
-td.spybot-databattle-board-cell-type-5 {
-  background: url('/assets/databattle/cell_5.bmp');
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='4'] {
+  background: url('/assets/databattle/cell_4.png');
 }
 
-td.spybot-databattle-board-cell-type-6 {
-  background: url('/assets/databattle/cell_6.bmp');
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='5'] {
+  background: url('/assets/databattle/cell_5.png');
 }
 
-td.spybot-databattle-board-cell-type-7 {
-  background: url('/assets/databattle/cell_7.bmp');
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='6'] {
+  background: url('/assets/databattle/cell_6.png');
 }
 
-td.spybot-databattle-board-cell-type-8 {
-  background: url('/assets/databattle/cell_8.bmp');
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='7'] {
+  background: url('/assets/databattle/cell_7.png');
 }
 
-td.spybot-databattle-board-cell-type-9 {
-  background: url('/assets/databattle/cell_9.bmp');
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='8'] {
+  background: url('/assets/databattle/cell_8.png');
+}
+
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='9'] {
+  background: url('/assets/databattle/cell_9.png');
+}
+
+spybot-databattle-board-cell-datacard {
+  background: url('/assets/databattle/datacard.png');
 }
