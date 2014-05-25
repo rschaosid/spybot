@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Hack",
+    "attacks": [
+      {
+        "name": "Slice",
+        "description": "DELETES 2 SECTORS FROM TARGET",
+        "type": "damage",
+        "magnitude": 2,
+        "sizeRequired": 0
+      }
+    ],
+    "moveRate": 2,
+    "maxSize": 4,
+    "name": "Hack",
+    "description": "BASIC ATTACK PROGRAM"
+  }
+]
