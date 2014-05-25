@@ -40,39 +40,39 @@ spybot-databattle-board-cell-floor {
   opacity: .75;
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='1'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='1'] {
   background: url('/assets/databattle/cell_1.png');
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='2'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='2'] {
   background: url('/assets/databattle/cell_2.png');
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='3'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='3'] {
   background: url('/assets/databattle/cell_3.png');
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='4'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='4'] {
   background: url('/assets/databattle/cell_4.png');
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='5'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='5'] {
   background: url('/assets/databattle/cell_5.png');
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='6'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='6'] {
   background: url('/assets/databattle/cell_6.png');
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='7'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='7'] {
   background: url('/assets/databattle/cell_7.png');
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='8'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='8'] {
   background: url('/assets/databattle/cell_8.png');
 }
 
-spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-type='9'] {
+spybot-databattle-board-cell-floor[spybot-databattle-board-cell-floor-tiletype='9'] {
   background: url('/assets/databattle/cell_9.png');
 }
 
