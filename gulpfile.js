@@ -12,8 +12,7 @@ gulp.task('watch', function() {
 gulp.task('lint', function() {
   gulp.src(scripts)
     .pipe(jshint())
-    .pipe(jshint.reporter(jshint_stylish))
-    .pipe(jshint.reporter('fail'));
+    .pipe(jshint.reporter(jshint_stylish));
 });
 
 gulp.task('build', function() {
@@ -27,4 +26,3 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['lint', 'build', 'watch']);
-
