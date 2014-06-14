@@ -21,3 +21,10 @@ gulp.task('build', function() {
     .pipe(browserify())
     .pipe(gulp.dest('./build/js'));
 });
+
+gulp.task('watch', function() {
+  gulp.watch(scripts, ['lint', 'build']);
+});
+
+gulp.task('default', ['lint', 'build', 'watch']);
+
