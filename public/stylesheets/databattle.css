@@ -8,6 +8,13 @@ spybot-databattle-backdrop[spybot-databattle-backdrop-kind='3'] {
   background: url('/assets/databattle/company-backdrop-5.jpeg');
 }
 
+spybot-databattle-action-board {
+  position: absolute;
+  width: 180;
+  height: 360;
+}
+
+
 spybot-databattle-board {
   display: table;
   position: absolute;
